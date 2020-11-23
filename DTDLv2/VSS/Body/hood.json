@@ -11,11 +11,11 @@
         "comment": "actuator",
         "request": {
             "name": "IsOpen",
-            "schema": "string"
+            "schema": "boolean"
         },
         "response": {
             "name": "IsOpen",
-            "schema": "string"
+            "schema": "boolean"
         }
     },
     {
@@ -23,7 +23,7 @@
         "name": "IsOpenTelemetry",
         "description": "Hood open or closed. True = Open. False = Closed",
         "comment": "sensor",
-        "schema": "string"
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"
