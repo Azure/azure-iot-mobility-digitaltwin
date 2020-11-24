@@ -5,7 +5,7 @@
     "displayName": "Wiper",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "WiperStatus",
         "description": "Windshield wiper status",
         "comment": "actuator, enumeration",

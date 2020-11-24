@@ -5,25 +5,25 @@
     "displayName": "Vehicle Rotation Telemetry",
     "contents": [
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "RotationRoll",
             "description": "Vehicle rotation rate along X (longitudinal)",
             "comment": "unit in degrees/s",
-            "schema": "string"
+            "schema": "integer"
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "RotationPitch",
             "description": "Vehicle Rotation in Y (Pitch Rotation)",
             "comment": "unit in degrees/s",
-            "schema": "string" 
+            "schema": "integer" 
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "RotationYaw",
             "description": "Vehicle Rotation in Z (Yaw Rotation)",
             "comment": "unit in degrees/s",
-            "schema": "string"
+            "schema": "integer"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

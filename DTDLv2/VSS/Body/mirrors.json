@@ -5,50 +5,25 @@
     "displayName": "Mirror",
     "contents": [
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Tilt",
         "description": "Mirror tilt as a percent. 0 = Center Position. 100 = Fully Upward Position. -100 = Fully Downward Position.",
         "comment": "actuator",
-        "request": {
-            "name": "Tilt",
-            "comment": "units in percent",
-            "schema": "string"
-        },
-        "response": {
-            "name": "Tilt",
-            "comment": "units in percent",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Pan",
         "description": "Mirror pan as a percent. 0 = Center Position. 100 = Fully Left Position. -100 = Fully Right Position.",
         "comment": "actuator",
-        "request": {
-            "name": "Pan",
-            "comment": "units in percent",
-            "schema": "string"
-        },
-        "response": {
-            "name": "Pan",
-            "comment": "units in percent",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Heating",
         "description": "Mirror Heater on or off. True = Heater On. False = Heater Off.",
         "comment": "actuator",
-        "request": {
-            "name": "Heating",
-            "schema": "string"
-        },
-        "response": {
-            "name": "Heating",
-            "schema": "string"
-        }
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

@@ -5,10 +5,9 @@
     "displayName": "ChargingPort",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "Type",
         "description": "Indicates the primary charging type fitted to the vehicle",
-        "comment": "actuator, enumeration",
         "schema": {
             "@type": "Enum",
             "valueSchema": "integer",
@@ -50,7 +49,7 @@
                     "enumValue": 8
                 }
             ]
-        }
+        } 
     }
     ],
     "@context": "dtmi:dtdl:context;2"

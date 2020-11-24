@@ -5,14 +5,14 @@
     "displayName": "Fluid",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "LevelLow",
         "description": "Low level indicator for washer fluid.",
         "comment": "sensor, True = Level Low. False = Level OK",
         "schema": "string"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "Level",
         "description": "Washer fluid level as a percent.",
         "comment": "sensor, unit in percent, 0 = Empty. 100 = Full",

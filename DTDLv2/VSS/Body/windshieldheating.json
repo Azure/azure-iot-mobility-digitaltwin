@@ -5,25 +5,11 @@
     "displayName": "Heating",
     "contents": [
     {
-        "@type": "Command",
-        "name": "Heater",
-        "description": "Windshield heater.",
-        "comment": "actuator, On = True, Off = False",
-        "request": {
-            "name": "Heater",
-            "schema": "string"
-        },
-        "response": {
-            "name": "Heater",
-            "schema": "string"
-        }
-    },
-    {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "HeaterStatus",
         "description": "Windshield heater status",
         "comment": "sensor, On = True, Off = False",
-        "schema": "string"
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

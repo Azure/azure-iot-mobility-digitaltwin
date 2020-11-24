@@ -5,158 +5,81 @@
     "displayName": "Lights",
     "contents": [
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "HighBeam",
         "description": "High beam lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsHighBeamOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsHighBeamOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "LowBeam",
         "description": "Low beam lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsLowBeamOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsLowBeamOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Running",
         "description": "Running lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsRunningOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRunningOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Backup",
         "description": "Backup (reverse) lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsBackupOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsBackupOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Parking",
         "description": "Parking lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsParkingOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsParkingOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Brake",
         "description": "Brake lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsBrakeOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsBrakeOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "RearFog",
         "description": "Rear fog lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsRearFogOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRearFogOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "FrontFog",
         "description": "Front fog lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsFrontFogOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsFrontFogOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "Hazard",
         "description": "Hazard lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsHazardOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsHazardOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "LeftIndicator",
         "description": "Left indicator lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsLeftIndicatorOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsLeftIndicatorOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "RightIndicator",
         "description": "Right indicator lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsRightIndicatorOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRightIndicatorOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

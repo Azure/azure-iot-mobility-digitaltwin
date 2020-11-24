@@ -12,53 +12,53 @@
         "schema": "string"
     },  
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "TirePressure",
         "description": "Tire pressure in kilo-Pascal",
         "comment": "unit in kpa",
-        "schema": "string"
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "TirePressureLow",
         "description": "Tire Pressure Status. True = Low tire pressure. False = Good tire pressure.",
         "comment": "unit as boolean",
-        "schema": "string"
+        "schema": "boolean"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "TireTireDiameter",
         "description": "Tire temperature in Celsius",
         "comment": "unit in celsius",
         "schema": "float"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "BreakFluidLevel",
         "description": "Brake fluid level as percent. 0 = Empty. 100 = Full.",
         "comment": "unit in percent",
-        "schema": "string"
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "BreakFluidLevelLow",
         "description": "Brake fluid level status. True = Brake fluid level low. False = Brake fluid level OK.",
         "comment": "unit as boolean",
-        "schema": "string"
+        "schema": "boolean"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "BreakPadWear",
         "description": "Brake pad wear as percent. 0 = No Wear. 100 = Worn.",
         "comment": "unit in percent",
-        "schema": "string"
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "BreakBrakesWorn",
         "description": "Brake pad wear status. True = Worn. False = Not Worn.",
         "comment": "unit as boolean",
-        "schema": "string"
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

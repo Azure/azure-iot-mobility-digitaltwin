@@ -83,25 +83,25 @@
         "@type": "Property",
         "name": "IgnitionOnTime",
         "description": "Telemetry, Accumulated ignition on time in seconds. sensor, unit in seconds",
-        "schema": "integer"
+        "schema": "duration"
     },
     {
         "@type": "Property",
         "name": "IgnitionOffTime",
         "description": "Telemetry, Accumulated ignition off time in seconds. sensor, unit in seconds",
-        "schema": "integer" 
+        "schema": "duration" 
     },
     {
         "@type": "Property",
         "name": "DriveTime",
         "description": "Telemetry, Accumulated drive time in seconds. sensor, unit in seconds",
-        "schema": "integer"
+        "schema": "duration"
     },
     {
         "@type": "Property",
         "name": "IdleTime",
         "description": "Telemetry, Accumulated idle time in seconds, sensor, unit in seconds",
-        "schema": "integer"
+        "schema": "duration"
     },
     {
         "@type": "Property",

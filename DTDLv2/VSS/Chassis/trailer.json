@@ -5,11 +5,11 @@
     "displayName": "TrailerTelemetry",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "Connected",
         "description": "Signal indicating if trailer is connected or not.",
         "comment": "True = connected, False = not connected",
-        "schema": "string"
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

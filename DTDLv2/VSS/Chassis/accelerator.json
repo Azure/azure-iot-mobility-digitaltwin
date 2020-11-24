@@ -5,11 +5,11 @@
     "displayName": "AcceleratorTelemetry",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "PedalPosition",
         "description": "Accelerator pedal position as percent. 0 = Not depressed. 100 = Fully depressed.",
         "comment": "unit in percent",
-        "schema": "string"
+        "schema": "integer"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

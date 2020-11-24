@@ -5,45 +5,17 @@
     "displayName": "Trunk",
     "contents": [
     {
-        "@type": "Command",
-        "name": "IsOpenCommand",
+        "@type": "Property",
+        "name": "IsOpen",
         "description": "Trunk open or closed. True = Open. False = Closed",
         "comment": "actuator",
-        "request": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        },
-        "response": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        }
-    },
-    {
-        "@type": "Command",
-        "name": "IsLockedCommand",
-        "description": "Is trunk locked or unlocked. True = Locked. False = Unlocked",
-        "comment": "actuator",
-        "request": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        },
-        "response": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        }
-    },
-    {
-        "@type": "Telemetry",
-        "name": "IsOpenTelemetry",
-        "description": "Trunk open or closed. True = Open. False = Closed",
-        "comment": "sensor",
         "schema": "boolean"
     },
     {
-        "@type": "Telemetry",
-        "name": "IsLockedTelemetry",
+        "@type": "Property",
+        "name": "IsLocked",
         "description": "Is trunk locked or unlocked. True = Locked. False = Unlocked",
-        "comment": "sensor",
+        "comment": "actuator",
         "schema": "boolean"
     }
     ],

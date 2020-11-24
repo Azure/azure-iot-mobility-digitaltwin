@@ -5,18 +5,11 @@
     "displayName": "Horn",
     "contents": [
     {
-        "@type": "Command",
-        "name": "IsActiveCommand",
+        "@type": "Property",
+        "name": "IsActive",
         "description": "Horn active or inactive. True = Active. False = Inactive.",
         "comment": "actuator",
-        "request": {
-            "name": "IsActive",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsActive",
-            "schema": "string"
-        }
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

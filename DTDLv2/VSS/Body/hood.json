@@ -5,25 +5,10 @@
     "displayName": "Hood",
     "contents": [
     {
-        "@type": "Command",
-        "name": "IsOpenCommand",
+        "@type": "Property",
+        "name": "IsOpen",
         "description": "Hood open or closed. True = Open. False = Closed",
-        "comment": "actuator",
-        "request": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        },
-        "response": {
-            "name": "IsOpen",
-            "schema": "boolean"
-        }
-    },
-    {
-        "@type": "Telemetry",
-        "name": "IsOpenTelemetry",
-        "description": "Hood open or closed. True = Open. False = Closed",
-        "comment": "sensor",
-        "schema": "boolean"
+        "schema": "boolean" 
     }
     ],
     "@context": "dtmi:dtdl:context;2"

@@ -5,32 +5,18 @@
     "displayName": "Lights",
     "contents": [
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "RearFog",
         "description": "Rear fog lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsRearFogOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRearFogOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     },
     {
-        "@type": "Command",
+        "@type": "Property",
         "name": "FrontFog",
         "description": "Front fog lights on or off. True = On. False = Off.",
         "comment": "actuator",
-        "request": {
-            "name": "IsFrontFogOn",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsFrontFogOn",
-            "schema": "string"
-        }
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

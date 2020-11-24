@@ -5,25 +5,25 @@
     "displayName": "SteeringWheelTelemetry",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "WheelAngle",
         "description": "Steering wheel angle. Positive is degrees to the left. Negative is degrees to the right.",
         "comment": "unit in degrees",
-        "schema": "string"
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "WheelTilt",
         "description": "Steering wheel column tilt. 0 is Lowest position. 100 isHighest position.",
         "comment": "unit in percent",
-        "schema": "string"
+        "schema": "integer"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "WheelExtension",
         "description": "Steering wheel column extension from dashboard. 0 is Closest to dashboard. 100 = Furthest from dashboard.",
         "comment": "unit in percent",
-        "schema": "string"
+        "schema": "integer"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

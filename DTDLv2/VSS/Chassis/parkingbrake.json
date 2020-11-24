@@ -5,10 +5,10 @@
     "displayName": "ParkingBrakeTelemetry",
     "contents": [
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "IsEngaged",
         "description": "Parking brake status. True = Parking Brake is Engaged. False = Parking Brake is not Engaged.",
-        "schema": "string"
+        "schema": "boolean"
     }
     ],
     "@context": "dtmi:dtdl:context;2"

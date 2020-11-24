@@ -5,39 +5,39 @@
     "displayName": "Vehicle Information Telemetry",
     "contents": [
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "IgnitionOnTime",
             "description": "Accumulated ignition on time in seconds",
             "comment": "unit in seconds",
-            "schema": "string"
+            "schema": "duration"
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "IgnitionOffTime",
             "description": "Accumulated ignition off time in seconds",
             "comment": "unit in seconds",
-            "schema": "string" 
+            "schema": "duration" 
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "DriveTime",
             "description": "Accumulated drive time in seconds",
             "comment": "unit in seconds",
-            "schema": "string"
+            "schema": "duration"
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "IdleTime",
             "description": "Accumulated idle time in seconds",
             "comment": "unit in seconds",
-            "schema": "string"
+            "schema": "duration"
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "Speed",
             "description": "Vehicle speed, as sensed by the gearbox",
             "comment": "min -250, max 250, km/h",
-            "schema": "string"
+            "schema": "integer"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

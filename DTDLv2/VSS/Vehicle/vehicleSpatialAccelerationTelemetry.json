@@ -5,25 +5,25 @@
     "displayName": "Vehicle acceleration Telemetry",
     "contents": [
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "AccelerationLongitudinal",
             "description": "Vehicle acceleration in X (longitudinal acceleration)",
             "comment": "unit in m/s2",
-            "schema": "string"
+            "schema": "integer"
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "AccelerationLateral",
             "description": "Vehicle acceleration in Y (lateral acceleration)",
             "comment": "unit in m/s2",
-            "schema": "string" 
+            "schema": "integer" 
         },
         {
-            "@type": "Telemetry",
+            "@type": "Property",
             "name": "AccelerationVertical",
             "description": "Vehicle acceleration in Z (vertical acceleration)",
             "comment": "unit in seconds",
-            "schema": "string"
+            "schema": "integer"
         }
     ],
     "@context": "dtmi:dtdl:context;2"

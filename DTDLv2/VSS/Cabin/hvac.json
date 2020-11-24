@@ -5,76 +5,40 @@
     "displayName": "HVAC",
     "contents": [
     {
-        "@type": "Command",
-        "name": "IsRecirculationActive",
-        "description": "Is recirculation active.",
-        "comment": "actuator",
-        "request": {
-            "name": "IsRecirculationActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRecirculationActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        }
-    },
-    {
-        "@type": "Command",
-        "name": "IsFrontDefrosterActive",
-        "description": "Is front defroster active.",
-        "comment": "actuator",
-        "request": {
-            "name": "IsFrontDefrosterActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsFrontDefrosterActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        }
-    },
-    {
-        "@type": "Command",
-        "name": "IsRearDefrosterActive",
-        "description": "Is front defroster active.",
-        "comment": "actuator",
-        "request": {
-            "name": "IsRearDefrosterActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsRearDefrosterActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        }
-    },
-    {
-        "@type": "Command",
+        "@type": "Property",
         "name": "IsAirConditioningActive",
-        "description": "Is front defroster active.",
-        "comment": "actuator",
-        "request": {
-            "name": "IsAirConditioningActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        },
-        "response": {
-            "name": "IsAirConditioningActive",
-            "comment": "On = true, Off = false",
-            "schema": "string"
-        }
+        "description": "Ambient air temperature.",
+        "comment": "On = true, Off = false",
+        "schema": "boolean"
     },
     {
-        "@type": "Telemetry",
+        "@type": "Property",
         "name": "AmbientAirTemperature",
         "description": "Ambient air temperature.",
         "comment": "sensor, in celius",
         "schema": "string"
-     }
+    },
+    {
+        "@type": "Property",
+        "name": "IsRecirculationActive",
+        "description": "Is recirculation active.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
+    {
+        "@type": "Property",
+        "name": "IsFrontDefrosterActive",
+        "description": "Is front defroster active.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "IsRearDefrosterActive",
+        "description": "Is front defroster active.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
     ],
     "@context": "dtmi:dtdl:context;2"
   }
