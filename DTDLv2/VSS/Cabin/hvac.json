@@ -1,7 +1,7 @@
 {
     "@id": "dtmi:com:vehicle:cabin:hvac;1",
     "@type": "Interface",
-    "comment": "HVAC system climate control",
+    "comment": "All HVAC system climate control signals",
     "displayName": "HVAC",
     "contents": [
     {
