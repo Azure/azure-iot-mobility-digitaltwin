@@ -24,7 +24,7 @@
         "description": "Is recirculation active.",
         "comment": "actuator",
         "schema": "boolean"
-    }
+    },
     {
         "@type": "Property",
         "name": "IsFrontDefrosterActive",
