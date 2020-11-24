@@ -71,7 +71,7 @@
         "@type": "Property",
         "name": "Year",
         "description": "Model year of the vehicle",
-        "schema": "date"
+        "schema": "integer"
     },
     {
         "@type": "Property",
