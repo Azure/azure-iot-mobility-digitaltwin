@@ -6,12 +6,7 @@
     "contents": [
     {
         "@type": "Relationship",
-        "name": "has_hvacTelemetry",
-        "target": "dtmi:com:vehicle:cabin:hvac;1"
-    },
-    {
-        "@type": "Relationship",
-        "name": "has_hvacCommand",
+        "name": "has_hvac",
         "target": "dtmi:com:vehicle:cabin:hvac;1"
     }
     ],

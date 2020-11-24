@@ -16,7 +16,7 @@
         "name": "AmbientAirTemperature",
         "description": "Ambient air temperature.",
         "comment": "sensor, in celius",
-        "schema": "string"
+        "schema": "integer"
     },
     {
         "@type": "Property",
