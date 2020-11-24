@@ -1,13 +1,107 @@
 {
     "@id": "dtmi:com:vehicle:cabin;1",
     "@type": "Interface",
-    "comment": "Cabin of a vehicle",
+    "comment": "Cabin of a vehicle.  'Has' relationships are optional, 'contains' relationships are required",
     "displayName": "Cabin",
     "contents": [
     {
         "@type": "Relationship",
-        "name": "has_hvac",
+        "name": "has_rearshade",
+        "target": "dtmi:com:vehicle:cabin:shade;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_sunroof",
+        "target": "dtmi:com:vehicle:cabin:sunroof;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "contains_rearviewmirror",
+        "target": "dtmi:com:vehicle:cabin:rearviewmirror;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "contains_lights",
+        "target": "dtmi:com:vehicle:cabin:lights;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "contains_hvac",
         "target": "dtmi:com:vehicle:cabin:hvac;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "contains_door",
+        "target": "dtmi:com:vehicle:cabin:door;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "contains_seat",
+        "target": "dtmi:com:vehicle:cabin:seat;1"
+    },
+    {
+        "@type": "Property",
+        "name": "doorcount",
+        "description": "Number of doors in vehicle",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "driverposition",
+        "description": "The position, 1-5, of the driver seat in row 1. Default = 0",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "seatrowcount",
+        "description": "Number of seat rows in vehicle",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "seatposcount",
+        "description": "Number of seats across each row from the front to the rear",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "convertiblestatus",
+        "description": "Roof status on convertible vehicles",
+        "comment": "sensor",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "undefined",
+                    "enumValue": 0
+                },
+                {
+                    "name": "closed",
+                    "enumValue": 1
+                },
+                {
+                    "name": "open",
+                    "enumValue": 2
+                },
+                {
+                    "name": "closing",
+                    "enumValue": 3
+                },
+                {
+                    "name": "opening",
+                    "enumValue": 4
+                },
+                {
+                    "name": "stalled",
+                    "enumValue": 5
+                }
+            ]
+        }
     }
     ],
     "@context": "dtmi:dtdl:context;2"

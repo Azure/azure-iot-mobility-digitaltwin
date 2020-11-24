@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:rearviewmirror;1",
+    "@type": "Interface",
+    "comment": "Rearview mirror signals",
+    "displayName": "rearviewmirror",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "dimminglevel",
+        "description": "Dimming level of mirror: 0 = undimmed, 100 = fully dimmed",
+        "comment": "actuator, percent",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

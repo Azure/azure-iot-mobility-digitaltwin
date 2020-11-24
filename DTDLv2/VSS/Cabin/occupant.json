@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:occupant;1",
+    "@type": "Interface",
+    "comment": "Occupant signals",
+    "displayName": "occupant",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "HasPassenger",
+        "description": "Does the seat have a passenger in it.",
+        "comment": "sensor",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

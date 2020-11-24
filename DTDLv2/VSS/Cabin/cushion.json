@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:cushion;1",
+    "@type": "Interface",
+    "comment": "Seat cushion signals",
+    "displayName": "cushion",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "height",
+        "description": "Height of the seat front: 0 = Lowermost, 500 = Uppermost.",
+        "comment": "in mm, sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "length",
+        "description": "Forward length of cushion (leg support): 0 = Rearmost, 500 = Forwardmost.",
+        "comment": "in mm, sensor",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

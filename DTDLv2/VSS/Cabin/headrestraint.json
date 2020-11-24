@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:headrestraint;1",
+    "@type": "Interface",
+    "comment": "Seat head restraint signals",
+    "displayName": "headrestraint",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "height",
+        "description": "Height of head restraint: 0 = Bottommost, 255 = Topmost.",
+        "comment": "in mm, sensor",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:switch:messageswitch;1",
+    "@type": "Interface",
+    "comment": "Seat message switch signals",
+    "displayName": "messageswitch",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "increase",
+        "description": "Increase massage level switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "decrease",
+        "description": "decrease massage level switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

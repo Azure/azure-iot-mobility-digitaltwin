@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:switch:cushionswitch;1",
+    "@type": "Interface",
+    "comment": "Cushion switch signals",
+    "displayName": "cushionswitch",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "up",
+        "description": "Cushion up switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "down",
+        "description": "Cushion down switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

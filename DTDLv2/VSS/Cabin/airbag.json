@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:airbag;1",
+    "@type": "Interface",
+    "comment": "Seat head restraint signals",
+    "displayName": "headrestraint",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "isdeployed",
+        "description": "Airbag deployment status: true = deployed, false = not deployed.",
+        "comment": "sensor",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

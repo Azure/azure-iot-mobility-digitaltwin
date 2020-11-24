@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:lumbar;1",
+    "@type": "Interface",
+    "comment": "Seat lumbar support signals",
+    "displayName": "lumbar",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "Inflation",
+        "description": "Lumbar support inflation: 0 = Fully deflated, 255 = Fully inflated",
+        "comment": "sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "height",
+        "description": " Lumbar support position: 0 = Lowermost, 255 = Uppermost.",
+        "comment": "sensor",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

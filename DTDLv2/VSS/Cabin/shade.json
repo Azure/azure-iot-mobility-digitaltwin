@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:shade;1",
+    "@type": "Interface",
+    "comment": "Definition of a single blind / curtain that can cover either a side window or the rear window.",
+    "displayName": "shade",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "Position",
+        "description": "Position of window blind: 0 = fully retracted, 100 = fully deployed.",
+        "comment": "actuator",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

@@ -1,0 +1,36 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:switch:lumbarswitch;1",
+    "@type": "Interface",
+    "comment": "Seat lumbar switch signals",
+    "displayName": "lumbarswitch",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "up",
+        "description": "Lumbar switch up position engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "down",
+        "description": "Lumbar switch down position engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },    {
+        "@type": "Property",
+        "name": "inflate",
+        "description": "Lumbar switch inflation engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "deflate",
+        "description": "Lumbar switch deflation engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

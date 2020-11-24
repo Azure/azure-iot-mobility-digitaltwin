@@ -1,0 +1,30 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:door:window;1",
+    "@type": "Interface",
+    "comment": "Single window",
+    "displayName": "window",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "IsOpen",
+        "description": "Is the window open or closed: true = open, false = closed",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "Position",
+        "description": "Window position: 0 = fully closed, 100 = fully open",
+        "comment": "percent",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "IsChildLockEngaged",
+        "description": " Is door child lock engaged: true = engaged, false = disengaged",
+        "comment": "sensor",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

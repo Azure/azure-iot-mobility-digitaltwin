@@ -1,0 +1,35 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:door;1",
+    "@type": "Interface",
+    "comment": "Door",
+    "displayName": "door",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "has_window",
+        "target": "dtmi:com:vehicle:cabin:door:window;1"
+    },
+    {
+        "@type": "Property",
+        "name": "isopen",
+        "description": "Is the door open or closed: true = open, false = closed",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "islocked",
+        "description": "Is the door locked: true = locked, false = unlocked",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "ischildlockactive",
+        "description": " Is door child lock engaged: true = engaged, false = disengaged",
+        "comment": "sensor",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

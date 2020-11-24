@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle:cabin:sunroof;1",
     "@type": "Interface",
     "comment": "Sun roof",
-    "displayName": "Sunroof",
+    "displayName": "sunroof",
     "contents": [
     {
         "@type": "Property",

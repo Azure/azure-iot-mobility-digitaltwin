@@ -1,0 +1,61 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:switch;1",
+    "@type": "Interface",
+    "comment": "Seat switch signals",
+    "displayName": "switch",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "has_headrestraintswitch",
+        "target": "dtmi:com:vehicle:cabin:seat:switch:headrestraintswitch;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_messageswitch",
+        "target": "dtmi:com:vehicle:cabin:seat:switch:messageswitch;1"
+    },
+    {
+        "@type": "Property",
+        "name": "warmer",
+        "description": "Warmer switch for seat heater.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "cooler",
+        "description": "Cooler switch for seat heater.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "forward",
+        "description": "Seat forward switch enagaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "backward",
+        "description": "Seat backward switch enagaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "up",
+        "description": "Seat up switch enagaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "down",
+        "description": "Seat up switch enagaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

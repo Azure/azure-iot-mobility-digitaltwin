@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:sidebolster;1",
+    "@type": "Interface",
+    "comment": "Seat side bolster signals",
+    "displayName": "sidebolster",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "Inflation",
+        "description": "Side bolster support inflation: 0 = Fully deflated, 255 = Fully inflated",
+        "comment": "sensor",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

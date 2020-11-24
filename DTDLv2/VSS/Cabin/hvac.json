@@ -6,35 +6,35 @@
     "contents": [
     {
         "@type": "Property",
-        "name": "IsAirConditioningActive",
+        "name": "isairconditioningactive",
         "description": "Ambient air temperature.",
         "comment": "On = true, Off = false",
         "schema": "boolean"
     },
     {
         "@type": "Property",
-        "name": "AmbientAirTemperature",
+        "name": "ambientairtemperature",
         "description": "Ambient air temperature.",
         "comment": "sensor, in celius",
         "schema": "integer"
     },
     {
         "@type": "Property",
-        "name": "IsRecirculationActive",
+        "name": "isrecirculationactive",
         "description": "Is recirculation active.",
         "comment": "actuator",
         "schema": "boolean"
     },
     {
         "@type": "Property",
-        "name": "IsFrontDefrosterActive",
+        "name": "isfrontdefrosteractive",
         "description": "Is front defroster active.",
         "comment": "actuator",
         "schema": "boolean"
     },
     {
         "@type": "Property",
-        "name": "IsRearDefrosterActive",
+        "name": "isreardefrosteractive",
         "description": "Is front defroster active.",
         "comment": "actuator",
         "schema": "boolean"

@@ -1,0 +1,86 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat;1",
+    "@type": "Interface",
+    "comment": "Seat signals",
+    "displayName": "seat",
+    "contents": [
+    {
+        "@type": "Relationship",
+        "name": "has_occupant",
+        "target": "dtmi:com:vehicle:cabin:seat:occupant;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_cushion",
+        "target": "dtmi:com:vehicle:cabin:seat:cushion;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_lumbar",
+        "target": "dtmi:com:vehicle:cabin:seat:lumbar;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_sidebolster",
+        "target": "dtmi:com:vehicle:cabin:seat:sidebolster;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_headrestraint",
+        "target": "dtmi:com:vehicle:cabin:seat:headrestraint;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_airbag",
+        "target": "dtmi:com:vehicle:cabin:seat:airbag;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "has_switch",
+        "target": "dtmi:com:vehicle:cabin:seat:switch;1"
+    },
+    {
+        "@type": "Property",
+        "name": "seatposition",
+        "description": "seatposition 1 is the driver seat",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "isBelted",
+        "description": "Does the occupant have his/her seatbelt fastened: true = fastened, false = unfastened.",
+        "comment": "sensor",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "heating",
+        "description": "Seat cooling / heating: 0 = off, -100 = max cold, +100 = max heat",
+        "comment": "percent, sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "massage",
+        "description": "Seat massage level: 0 = off, 100 = max massage",
+        "comment": "percent, sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "recline",
+        "description": "Recline level: -90 = Max forward recline, 90 max backward recline",
+        "comment": "degrees, sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "position",
+        "description": "Seat horizontal position: 0 = Frontmost, 1000 = Rearmost",
+        "comment": "mm, sensor",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

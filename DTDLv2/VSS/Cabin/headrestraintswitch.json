@@ -1,0 +1,23 @@
+{
+    "@id": "dtmi:com:vehicle:cabin:seat:switch:headrestraintswitch;1",
+    "@type": "Interface",
+    "comment": "Seat head restraint switch signals",
+    "displayName": "headrestraintswitch",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "up",
+        "description": "Head restraint up switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    },
+    {
+        "@type": "Property",
+        "name": "down",
+        "description": "Head restraint down switch engaged.",
+        "comment": "actuator",
+        "schema": "boolean"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}
