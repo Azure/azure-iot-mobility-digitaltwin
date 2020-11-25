@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DigitalTwins": {
+      "commandName": "Project",
+      "commandLineArgs": "\"SELECT * FROM DIGITALTWINS\""
+    }
+  }
+}

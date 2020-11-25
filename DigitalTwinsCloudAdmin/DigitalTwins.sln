@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalTwins", "DigitalTwins.csproj", "{974CB126-F222-49F9-9F13-A12C115F8091}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleClientApp", "..\..\..\..\digital-twins-samples\AdtSampleApp\SampleClientApp\SampleClientApp.csproj", "{31E8D634-09D9-4768-82B4-39AF41AB4247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{974CB126-F222-49F9-9F13-A12C115F8091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974CB126-F222-49F9-9F13-A12C115F8091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{974CB126-F222-49F9-9F13-A12C115F8091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{974CB126-F222-49F9-9F13-A12C115F8091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E8D634-09D9-4768-82B4-39AF41AB4247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E8D634-09D9-4768-82B4-39AF41AB4247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E8D634-09D9-4768-82B4-39AF41AB4247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E8D634-09D9-4768-82B4-39AF41AB4247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10E211A5-C9B7-4EA4-BCD1-779CA4D289B6}
+	EndGlobalSection
+EndGlobal
