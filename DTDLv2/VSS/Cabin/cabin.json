@@ -22,6 +22,7 @@
     {
         "@type": "Relationship",
         "name": "contains_lights",
+        "maxMultiplicity": 12,
         "target": "dtmi:com:vehicle:cabin:lights;1"
     },
     {
@@ -32,11 +33,13 @@
     {
         "@type": "Relationship",
         "name": "contains_door",
+        "maxMultiplicity": 4,
         "target": "dtmi:com:vehicle:cabin:door;1"
     },
     {
         "@type": "Relationship",
         "name": "contains_seat",
+        "maxMultiplicity": 5,
         "target": "dtmi:com:vehicle:cabin:seat;1"
     },
     {
