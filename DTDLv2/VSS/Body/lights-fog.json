@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle:body:foglight;1",
     "@type": "Interface",
     "comment": "Fog lights",
-    "displayName": "Lights",
+    "displayName": "FogLights",
     "contents": [
     {
         "@type": "Property",

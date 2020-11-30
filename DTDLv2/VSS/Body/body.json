@@ -7,6 +7,7 @@
     {
         "@type": "Relationship",
         "name": "has_hood",
+        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body:hood;1"
     },
     {
@@ -17,11 +18,13 @@
     {
         "@type": "Relationship",
         "name": "has_trunk",
+        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body:trunk;1"
     },
     {
         "@type": "Relationship",
         "name": "has_chargingPort",
+        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body:chargingport;1"
     },
     {
@@ -37,11 +40,19 @@
     {
         "@type": "Relationship",
         "name": "contains_light",
+        "maxMultiplicity": 12,
         "target": "dtmi:com:vehicle:body:light;1"
     },
     {
         "@type": "Relationship",
+        "name": "contains_foglight",
+        "maxMultiplicity": 4,
+        "target": "dtmi:com:vehicle:body:foglight;1"
+    },
+    {
+        "@type": "Relationship",
         "name": "has_mirror",
+        "maxMultiplicity": 3,
         "target": "dtmi:com:vehicle:body:mirror;1"
     },
     {

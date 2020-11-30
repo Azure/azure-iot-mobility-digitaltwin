@@ -7,40 +7,31 @@
     {
         "@type": "Relationship",
         "name": "has_informationTelemetry",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:information_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "has_spatialAccelerationTelemetry",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:spatialacceleration_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "has_spatialRotationTelemetry",
-        "maxMultiplicity": 1,
-        "minMultiplicity": 0,
         "target": "dtmi:com:vehicle:spatialrotation_telemetry;1"
     },
     {
         "@type": "Relationship",
         "name": "contains_chassis",
-        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:chassis;1"
     },
     {
         "@type": "Relationship",
         "name": "contains_body",
-        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body;1"
     },
     {
         "@type": "Relationship",
         "name": "contains_cabin",
-        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:cabin;1"
     },
     {

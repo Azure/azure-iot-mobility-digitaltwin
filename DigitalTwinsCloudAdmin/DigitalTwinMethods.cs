@@ -153,16 +153,16 @@
             }
         }
 
-        public static async Task DeleteTwin(DigitalTwinsClient client)
+        public static void DeleteTwin(DigitalTwinsClient client)
         {
             Console.Write("twinId: ");
             string twinId = Console.ReadLine();
 
             try
-            {
-                Task<Response> res = client.DeleteDigitalTwinAsync(twinId);
+            {   
+                Response res = client.DeleteDigitalTwin(twinId);
 
-                Console.WriteLine("Deleting twin {0}, HTTP status {1}", twinId, res.Result.Status);
+                Console.WriteLine("Deleting twin {0}, HTTP status {1}", twinId, res.ReasonPhrase);
             }
             catch (RequestFailedException e)
             {

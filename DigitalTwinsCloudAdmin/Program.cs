@@ -57,7 +57,7 @@
                             break;
                         case 8: await DigitalTwinMethods.GetTwin(client);
                             break;
-                        case 9: await DigitalTwinMethods.DeleteTwin(client);
+                        case 9: DigitalTwinMethods.DeleteTwin(client);
                             break;
                         case 10: await DigitalTwinMethods.CreateRelationship(client);
                             break;
