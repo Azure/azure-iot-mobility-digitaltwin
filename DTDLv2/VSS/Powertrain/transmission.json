@@ -1,0 +1,163 @@
+{
+    "@id": "dtmi:com:vehicle:transmission;1",
+    "@type": "Interface",
+    "comment": "All transmission-originated signals and attributes.",
+    "displayName": "Transmission",
+    "contents": [
+    {
+        "@type": "Property",
+        "name": "type",
+        "description": "Type of transmission",
+        "comment": "attribute",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "unknown",
+                    "enumValue": 0
+                },
+                {
+                    "name": "sequential",
+                    "enumValue": 1
+                },
+                {
+                    "name": "H",
+                    "enumValue": 2
+                },
+                {
+                    "name": "automatic",
+                    "enumValue": 3
+                },
+                {
+                    "name": "DSG",
+                    "enumValue": 4
+                },
+                {
+                    "name": "CVT",
+                    "enumValue": 5
+                }
+            ]
+        }
+    },
+    {
+        "@type": "Property",
+        "name": "GearCount",
+        "description": "Number of forward gears in the transmission: -1 = CVT.",
+        "comment": "attribute",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "DriveType",
+        "description": "Drive type",
+        "comment": "attribute",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "unknown",
+                    "enumValue": 0
+                },
+                {
+                    "name": "forward wheel drive",
+                    "enumValue": 1
+                },
+                {
+                    "name": "rear wheel drive",
+                    "enumValue": 2
+                },
+                {
+                    "name": "all wheel drive",
+                    "enumValue": 3
+                }
+            ]
+        }
+    },
+    {
+        "@type": "Property",
+        "name": "Speed",
+        "description": "Vehicle speed, as sensed by the gearbox.",
+        "comment": "sensor",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "odometer",
+        "description": "Odometer reading",
+        "comment": "sensor, km",
+        "schema": "float"
+    },
+    {
+        "@type": "Property",
+        "name": "currentGear",
+        "description": "Current gear: 0=Neutral, -1=Reverse",
+        "comment": "sensor, km",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "currentMode",
+        "description": "Current gear: 0=Neutral, -1=Reverse",
+        "comment": "actuator",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "normal",
+                    "enumValue": 0
+                },
+                {
+                    "name": "sport",
+                    "enumValue": 1
+                },
+                {
+                    "name": "economy",
+                    "enumValue": 2
+                },
+                {
+                    "name": "snow",
+                    "enumValue": 3
+                }
+            ]
+        }
+    },
+    {
+        "@type": "Property",
+        "name": "gearChangeMode",
+        "description": "Is the gearbox in automatic or manual (paddle) mode.",
+        "comment": "actuator",
+        "schema": {
+            "@type": "Enum",
+            "valueSchema": "integer",
+            "enumValues": [
+                {
+                    "name": "manual",
+                    "enumValue": 0
+                },
+                {
+                    "name": "automatic",
+                    "enumValue": 1
+                }
+            ]
+        }
+    },
+    {
+        "@type": "Property",
+        "name": "gearboxTemperature",
+        "description": "The current gearbox temperature.",
+        "comment": "actuator",
+        "schema": "integer"
+    },
+    {
+        "@type": "Property",
+        "name": "clutch",
+        "description": "Clutch wear as a percent: 0 = no wear, 100 = worn.",
+        "comment": "sensor, percent",
+        "schema": "integer"
+    }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }
