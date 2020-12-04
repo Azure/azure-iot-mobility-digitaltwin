@@ -44,10 +44,22 @@
             Console.Write("Add json:");
             input = Console.ReadLine();
 
+
             GetPatchPayload(input, ref dtid, ref patchpayload);
             Console.WriteLine("patchPayload = {0}", patchpayload);
 
-            await client.UpdateDigitalTwinAsync(dtid, patchpayload);
+            try
+            {
+                await client.UpdateDigitalTwinAsync(dtid, patchpayload);
+            }
+            catch (RequestFailedException e)
+            {
+                Console.WriteLine($"Response {e.Status}: {e.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
         }
 
         public static async Task WriteTelemetry(DigitalTwinsClient client)

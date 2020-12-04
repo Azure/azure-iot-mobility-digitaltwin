@@ -35,6 +35,11 @@
         "target": "dtmi:com:vehicle:cabin;1"
     },
     {
+        "@type": "Relationship",
+        "name": "contains_powertrain",
+        "target": "dtmi:com:vehicle:powertrain;1"
+    },
+    {
         "@type": "Property",
         "name": "VIN",
         "description": "17-character Vehicle Identification Number (VIN) as defined by ISO 3779",

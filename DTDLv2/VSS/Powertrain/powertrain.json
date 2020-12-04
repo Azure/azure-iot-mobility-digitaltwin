@@ -1,0 +1,21 @@
+{
+    "@id": "dtmi:com:vehicle:powertrain;1",
+    "@type": "Interface",
+    "comment": "Powertrain",
+    "displayName": "Powertrain",
+    "contents": [
+        {
+            "@type": "Relationship",
+            "name": "has_transmission",
+            "target": "dtmi:com:vehicle:powertrain:transmission;1"
+        },
+        {
+            "@type": "Property",
+            "name": "AccumulatedBrakingEnergy",
+            "description": "The accumulated energy from regenerative braking over lifetime.",
+            "comment": "sensor",
+            "schema": "float"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+  }

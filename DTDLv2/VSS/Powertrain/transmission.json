@@ -1,9 +1,20 @@
 {
-    "@id": "dtmi:com:vehicle:transmission;1",
+    "@id": "dtmi:com:vehicle:powertrain:transmission;1",
     "@type": "Interface",
     "comment": "All transmission-originated signals and attributes.",
     "displayName": "Transmission",
     "contents": [
+    {
+        "@type": "Relationship",
+        "name": "has_tcu",
+        "target": "dtmi:com:vehicle:powertrain:transmission:tcu;1"
+    },
+    {
+        "@type": "Relationship",
+        "name": "messages_to",
+        "maxMultiplicity": 8,
+        "target": "dtmi:com:vehicle:cabin:door;1"
+    },
     {
         "@type": "Property",
         "name": "type",
@@ -61,15 +72,15 @@
                     "enumValue": 0
                 },
                 {
-                    "name": "forward wheel drive",
+                    "name": "forwardwheeldrive",
                     "enumValue": 1
                 },
                 {
-                    "name": "rear wheel drive",
+                    "name": "rearwheeldrive",
                     "enumValue": 2
                 },
                 {
-                    "name": "all wheel drive",
+                    "name": "allwheeldrive",
                     "enumValue": 3
                 }
             ]

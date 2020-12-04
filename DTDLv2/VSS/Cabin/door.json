@@ -2,7 +2,7 @@
     "@id": "dtmi:com:vehicle:cabin:door;1",
     "@type": "Interface",
     "comment": "Door",
-    "displayName": "door",
+    "displayName": "Door",
     "contents": [
     {
         "@type": "Relationship",
