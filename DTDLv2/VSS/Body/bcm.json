@@ -1,0 +1,27 @@
+{
+    "@id": "dtmi:com:vehicle:body:bcm;1",
+    "@type": "Interface",
+    "displayName": "BCM",
+    "comment": "Component",
+    "description": "Body control module",
+    "contents": 
+    [
+        {
+            "@type": "Property",
+            "name": "sku",
+            "description": "Superceeds 61-35-9-176-076; 61359116492; 61359118730; 61359127790; 61359133144; 61359145022; 61359149037; 61359157158; 61359167205",
+            "schema": {
+                "@type": "Enum",
+                "valueSchema": "integer",
+                "enumValues": [
+                    {
+                        "name": "ecm1",
+                        "displayName": "61-35-9-176-076",
+                        "enumValue": 1
+                    }
+                ]
+            }
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

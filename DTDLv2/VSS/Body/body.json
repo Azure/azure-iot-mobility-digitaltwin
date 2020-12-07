@@ -56,6 +56,12 @@
         "target": "dtmi:com:vehicle:body:mirror;1"
     },
     {
+        "@type": "Relationship",
+        "name": "contains_bcm",
+        "maxMultiplicity": 3,
+        "target": "dtmi:com:vehicle:body:bcm;1"
+    },
+    {
         "@type": "Property",
         "name": "BodyType",
         "description": "Body type code as defined by ISO 3779",
