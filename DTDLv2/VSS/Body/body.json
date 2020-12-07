@@ -58,7 +58,7 @@
     {
         "@type": "Relationship",
         "name": "contains_bcm",
-        "maxMultiplicity": 3,
+        "maxMultiplicity": 1,
         "target": "dtmi:com:vehicle:body:bcm;1"
     },
     {
