@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(NetFx)</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.DigitalTwins.Core" Version="1.0.0-preview.3" />
+    <PackageReference Include="Azure.Identity" Version="1.4.0-beta.1" />
+    <PackageReference Include="DotNetty.Codecs.Mqtt" Version="$(DotNettyCodecsMqttVersion)" />
+    <PackageReference Include="DotNetty.Handlers" Version="$(DotNettyHandlersVersion)" />
+    <PackageReference Include="Microsoft.Azure.ConnectedCar.Provisioning.Client" Version="$(MicrosoftAzureConnectedCarProvisioningClientVersion)" />
+    <PackageReference Include="Microsoft.Azure.ConnectedCar.VehicleConnection.Client" Version="$(MicrosoftAzureConnectedCarVehicleConnectionClientVersion)" />
+    <PackageReference Include="Microsoft.Azure.Devices.Client" Version="$(MicrosoftAzureDevicesClientVersion)" />
+    <PackageReference Include="Microsoft.Azure.DigitalTwins.Parser" Version="3.12.5" />
+    <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="$(MicrosoftAzureDocumentDBCoreVersion)" />
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="$(MicrosoftAzureServicesAppAuthenticationVersion)" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="$(MicrosoftExtensionsLoggingVersion)" />
+    <PackageReference Include="System.Buffers" Version="$(SystemBuffersVersion)" />
+    <PackageReference Include="System.Collections.Immutable" Version="$(SystemCollectionsImmutableVersion)" />
+    <PackageReference Include="System.Text.Json" Version="5.0.0" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="$(SystemThreadingTasksExtensionsVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Command.cs" />
+    <Compile Include="DigitalTwinsDataContract.cs" />
+    <Compile Include="LoadModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Telemetry.cs" />
+  </ItemGroup>
+</Project>

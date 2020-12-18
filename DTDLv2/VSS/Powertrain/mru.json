@@ -1,0 +1,16 @@
+{
+    "@id": "dtmi:com:vehicle:powertrain:transmission:tcu:mru;1",
+    "displayName": "MRU",
+    "comment": "Component, minimum replaceable unit",
+    "@type": "Interface",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "URL",
+            "description": "Link to the specifications on the transmission's minimal replaceable unit",
+            "comment": "link to webaddress",
+            "schema": "string"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}

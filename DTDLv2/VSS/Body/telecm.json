@@ -1,9 +1,9 @@
 {
-    "@id": "dtmi:com:vehicle:body:bcm;1",
+    "@id": "dtmi:com:vehicle:body:tele;1",
     "@type": "Interface",
-    "displayName": "BCM",
+    "displayName": "TeleCM",
     "comment": "Component",
     "extends": "dtmi:com:vehicle:ecu;1",
-    "description": "Body control module",
+    "description": "Telematics Control Unit",
     "@context": "dtmi:dtdl:context;2"
 }

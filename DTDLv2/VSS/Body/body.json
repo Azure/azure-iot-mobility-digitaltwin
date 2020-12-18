@@ -62,6 +62,12 @@
         "target": "dtmi:com:vehicle:body:bcm;1"
     },
     {
+        "@type": "Relationship",
+        "name": "contains_telecm",
+        "maxMultiplicity": 1,
+        "target": "dtmi:com:vehicle:body:tele;1"
+    },
+    {
         "@type": "Property",
         "name": "BodyType",
         "description": "Body type code as defined by ISO 3779",

@@ -1,0 +1,7 @@
+{
+    "@id": "dtmi:com:vehicle:powertrain:transmission:tcu;1",
+    "displayName": "tcu",
+    "@type": "Interface",
+    "extends": "dtmi:com:vehicle:ecu;1",
+    "@context": "dtmi:dtdl:context;2"
+}

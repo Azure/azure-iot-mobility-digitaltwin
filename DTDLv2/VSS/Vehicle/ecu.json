@@ -1,0 +1,29 @@
+{
+    "@id": "dtmi:com:vehicle:ecu;1",
+    "@type": "Interface",
+    "displayName": "ecu",
+    "comment": "Component",
+    "description": "base class",
+    "contents": 
+    [
+        {
+            "@type": "Property",
+            "name": "partnumber",
+            "description": "part",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "name",
+            "description": "component name",
+            "schema": "string"
+        },
+        {
+            "@type": "Property",
+            "name": "description",
+            "description": "component description",
+            "schema": "string"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2"
+}
